@@ -1,0 +1,2 @@
+# econojs
+Basic economical utilities
