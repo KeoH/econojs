@@ -1,0 +1,23 @@
+{
+  "name": "econojs",
+  "version": "0.0.1",
+  "description": "Basic economical utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeoH/econojs.git"
+  },
+  "keywords": [
+    "economic",
+    "utilities"
+  ],
+  "author": "Francisco Manzano Magaña <keoh77@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KeoH/econojs/issues"
+  },
+  "homepage": "https://github.com/KeoH/econojs#readme"
+}
