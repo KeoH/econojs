@@ -2,8 +2,11 @@
   "name": "econojs",
   "version": "0.0.1",
   "description": "Basic economical utilities",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/KeoH/econojs/issues"
   },
-  "homepage": "https://github.com/KeoH/econojs#readme"
+  "homepage": "https://github.com/KeoH/econojs#readme",
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
 }
