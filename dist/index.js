@@ -1,10 +1,7 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const model_1 = require("./classes/model");
-function test() {
-    console.log('Helloo..');
-}
-exports.test = test;
-exports.classes = {
-    Model: model_1.Model
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
 };
+Object.defineProperty(exports, "__esModule", { value: true });
+const utils_1 = __importDefault(require("./utils"));
+exports.utils = utils_1.default;

@@ -1,9 +1,4 @@
-import { Model } from './classes/model';
 
-export function test() {
-    console.log('Helloo..');
-}
+import _utils from './utils';
 
-export const classes = {
-    Model
-};
+export const utils = _utils
